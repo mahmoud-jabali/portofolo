@@ -1,0 +1,99 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body::before {
+    /* content: ''; */
+    display: block;
+    height: 50px;
+}
+
+.name {
+    color: white;
+}
+
+.btn {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: aliceblue;
+}
+.btn:hover{
+    background-color: rgb(74, 74, 75) !important;
+}
+.img-fluid {
+    border-radius: 10% 50% 10% 50%;
+    width: 30%;
+}
+
+
+
+.card {
+
+    background-color: gray;
+    color: black;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.email {
+    text-decoration: none;
+    color: black;
+}
+
+.row {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    background-color:black;
+    color: white;
+}
+
+#logo {
+    width: 4vw;
+}
+
+.Home {
+    background-color: gray;
+    color: white;
+}
+
+.Projects {
+    background-color: gray;
+
+}
+
+.Skills {
+    background-color: gray;
+    color: white;
+}
+
+.Contact {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.fa-phone {
+    color: black !important;
+    font-size: 20px !important;
+}
+
+.fa-phone p {
+    font-size: 20px !important;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+.dow {
+    padding-top: 1.5% !important;
+    background-color: black !important;
+}
